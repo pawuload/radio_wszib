@@ -1,0 +1,67 @@
+name: project
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # utopia libs
+  utopia_arch: ^0.5.1+16
+  utopia_firebase_crashlytics: ^0.2.0
+  utopia_localization_utils: ^0.0.1
+  utopia_connectivity: ^0.1.0+46
+
+  # architecture
+  fast_immutable_collections: ^11.0.3
+
+  # api
+  dio: ^5.8.0+1
+
+  # audio
+  just_audio: ^0.9.36
+  audio_service: ^0.18.18
+
+  # misc widgets
+  flutter_svg: ^2.0.0+1
+  rive: ^0.13.20
+  auto_size_text: ^3.0.0
+  fluid_background: ^1.0.2
+
+  # misc utils
+  permission_handler: ^11.4.0
+  intl: ^0.20.2
+  audio_streamer: ^4.1.1
+  url_launcher: ^6.3.1
+  shared_preferences: ^2.2.2
+
+  # code generator runtimes
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.3.0
+  utopia_localization_annotation: ^0.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # code generators
+  freezed: ^3.0.4
+  json_serializable: ^6.0.1
+  build_runner: ^2.4.11
+  utopia_localization_generator: ^0.0.2+2
+
+  # lint
+  utopia_lints: ^0.0.1+1
+
+  flutter_launcher_icons: ^0.14.3
+
+
+flutter:
+
+  uses-material-design: true
+
